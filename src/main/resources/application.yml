@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sakila
+    username: root
+    password: NSin@008
+    driver-class-name: com.mysql.jdbc.Driver
