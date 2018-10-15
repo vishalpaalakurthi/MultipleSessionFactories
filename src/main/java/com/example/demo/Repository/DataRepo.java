@@ -35,7 +35,7 @@ public class DataRepo {
     }
 
     public void s2(){
-        getSession1().createSQLQuery("select * from bomcfg_globalmultmonthmoveupconfig").list();
+        getSession1().createSQLQuery("select * from actor2").list();
     }
 
 }
